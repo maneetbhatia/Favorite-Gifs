@@ -16,15 +16,11 @@
 
 **Screenshots**
 
-![alt text](Capture.jpg)
+![alt text](Capture.png)
 
 <br>
 
-![alt text](Capture2.jpg)
-
-<br>
-
-![alt text](Capture3.jpg)
+![alt text](Capture1.png)
 
 <br>
 
