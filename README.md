@@ -14,16 +14,6 @@
 
 <br>
 
-**Screenshots**
-
-![alt text](Capture.png)
-
-<br>
-
-![alt text](Capture1.png)
-
-<br>
-
 **Built With**
 
 - HTML 5
@@ -36,9 +26,9 @@
 
 <br>
 
-**Images By**
+**Live Link**
 
-Maneet Singh - https://github.com/Maneet97
+https://maneet79.github.io/Favorite-Movie-Gifs/.
 
 <br>
 
