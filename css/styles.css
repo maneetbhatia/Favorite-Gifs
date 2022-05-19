@@ -1,39 +1,40 @@
 * {
   padding: 0%;
   margin: 0%;
-  background-color: wheat;
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
-  color: white;
-  background-color: grey;
+  color: rgb(24, 24, 24);
+  background-color: rgb(224, 224, 224);
   padding-top: 2%;
   padding-left: 3%;
   padding-bottom: 2%;
   margin-bottom: 4%;
   font-size: 50px;
-  border-bottom: solid black;
+  border-bottom: solid rgb(240, 240, 240);
 }
 
 form {
   padding: 1%;
-  width: 40%;
+  width: 90%;
   float: right;
-  margin-right: 5%;
+  margin-right: 3%;
 }
 
 button {
   margin-left: 4%;
   margin-bottom: 5%;
   padding: 1%;
-  color: white;
-  background-color: grey;
+  color: rgb(0, 0, 0);
   font-size: 18px;
-  border-radius: 100px;
+  border: none;
+  box-shadow: 0px 0px 58px #c1c0c0;
+  border-radius: 13px;
 }
 
 button:hover {
-  background-color: silver;
+  border-bottom: 2px solid rgb(0, 0, 0);
   color: black;
   cursor: pointer;
 }
@@ -43,31 +44,31 @@ button:focus {
 }
 
 #add-movie {
-  padding-left: 5%;
-  padding-right: 5%;
-  color: white;
-  background-color: grey;
-  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  width: 110px;
+  border: none;
 }
 
 #add-movie:hover {
   cursor: pointer;
+  font-size: 15px;
 }
 
 form {
   padding: 1%;
-  width: 30%;
+  width: 45%;
   float: right;
-  /* margin-right: 5%; */
 }
 
 input {
-  padding: 1%;
-  background-color: #fff;
+  padding: 2.5%;
+  width: 70%;
+  border: none;
 }
 
-p {
-  background-color: silver;
+input:focus{
+  outline: none;
 }
 
 label {
@@ -75,20 +76,25 @@ label {
 }
 
 #movies-view {
-  float: left;
   padding: 1%;
-
   width: 40%;
   margin-left: 4%;
   color: red;
-
   font-weight: bold;
   font-size: 20px;
 }
+
 img {
   margin-bottom: 5%;
-  width: 100%;
+  height: 220px;
+  width: 60%;
 }
+
+img:hover{
+  cursor: pointer;
+}
+
 #movie-form {
-  margin-top: 2%;
+  margin-top: 1.5%;
+  background-color: rgb(224, 224, 224);
 }
