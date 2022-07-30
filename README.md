@@ -26,8 +26,6 @@
 <br>
 
 **Live Link**
-
-https://maneetbhatia.github.io/Favorite-Movie-Gifs/
 <br>
 
 **Author**
