@@ -8,7 +8,7 @@ const Gif = () =>{
     const [isGifStill, setIsGifStill] = useState(true);
 
     useEffect(()=> {
-    fetch(`https://api.giphy.com/v1/gifs/search?q=${search}&api_key=a3NI5WruCwCtyyGiwFOUfm5KeH6TASNL&limit=10`)
+    fetch(`https://api.giphy.com/v1/gifs/search?q=${search}&api_key=${process.env.REACT_APP_API_KEY}&limit=10`)
         .then((response) => response.json())
         .then((data) => {setGif(data.data); console.log(data.data)})
     }, [search])
@@ -21,7 +21,6 @@ const handleClick = () => {
     };
 }
 
-console.log(isGifStill)
     return (
         <>
         <Header setSearch={setSearch}/>
