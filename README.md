@@ -26,6 +26,8 @@
 <br>
 
 **Live Link**
+
+https://maneetbhatia.github.io/Favorite-Gifs/
 <br>
 
 **Author**
