@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.eb7629b1.css","mappings":"AAAA,OAGI,wBAA2B,CAF3B,QAAU,CACV,SAEJ","sources":["index.css"],"sourcesContent":["*, body{\r\n    margin: 0%;\r\n    padding: 0%;\r\n    background-color: aliceblue;\r\n}"],"names":[],"sourceRoot":""}
