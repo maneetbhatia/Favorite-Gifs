@@ -3,9 +3,9 @@ import styled from 'styled-components'
 const Header = ({setSearch}) => {
     return (
         <Main>
-        <H1>Find Your Favorite Gif's</H1>
+        <H1>GifTastic</H1>
         <Form>
-            <Input placeholder="10x" type="text" onChange={(e) => setSearch(e.target.value)}></Input>
+            <Input placeholder="Search your favorite topics..." type="text" onChange={(e) => setSearch(e.target.value)}></Input>
         </Form>
         </Main>
         )
@@ -13,7 +13,8 @@ const Header = ({setSearch}) => {
 
 const H1= styled.h1`
 margin: auto;
-border-bottom: 1px solid coral;
+border-bottom: 3px solid grey;
+padding: 10px;
 `
 
 const Main = styled.div`
@@ -28,8 +29,9 @@ margin: auto;
 
 const Input = styled.input`
 width: 100%;
-padding: 1.2%;
+padding: 2%;
 margin-right: 1%;
+border-radius: 15px;
 `
 
 export default Header;
