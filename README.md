@@ -21,13 +21,12 @@
 - Styled-Components
 - API
 - JSON
-- AJAX
 
 <br>
 
 **Live Link**
 
-https://maneetbhatia.github.io/Favorite-Gifs/
+https://gif-tastic-app.netlify.app
 <br>
 
 **Author**
